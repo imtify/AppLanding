@@ -1,7 +1,4 @@
 import React from "react";
-import shape13 from "../../assets/images/shape/shape-13.png";
-import shape14 from "../../assets/images/shape/shape-14.png";
-import shape15 from "../../assets/images/shape/shape-15.png";
 import trafficThumb from "../../assets/images/feature.png";
 
 function FeaturesHomeFour() {
@@ -43,15 +40,6 @@ function FeaturesHomeFour() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="features-shape-1">
-          <img src={shape13} alt="" />
-        </div>
-        <div className="features-shape-2">
-          <img src={shape14} alt="" />
-        </div>
-        <div className="features-shape-3">
-          <img src={shape15} alt="" />
         </div>
       </section>
     </>
