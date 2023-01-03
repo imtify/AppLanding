@@ -49,21 +49,21 @@ function Drawer({ drawer, action }) {
                         id="service"
                         className="menu-item-has-children active"
                       >
-                        <a href="/service">Service</a>
+                        <a href="/service">Services</a>
                       </li>
                       <li
                         onClick={(e) => handler(e, "pages")}
                         id="pages"
                         className="menu-item-has-children active"
                       >
-                        <a href="/#">Pages</a>
+                        <a href="/#">Features</a>
                       </li>
                       <li
                         onClick={(e) => handler(e, "news")}
                         id="news"
                         className="menu-item-has-children active"
                       >
-                        <a href="/#">News</a>
+                        <a href="/#">Restaurent</a>
                         <ul
                           className="sub-menu"
                           style={{
