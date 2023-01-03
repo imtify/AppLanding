@@ -1,17 +1,15 @@
 import React from "react";
-//import heroThumbOne from "../../assets/images/hero-thumb-1.png";
-//import heroThumbTwo from "../../assets/images/hero-thumb-2.png";
 import trafficThumb from "../../assets/images/traffic-thumb-2.png";
 
-function HeroHomeOne({ className }) {
+function HeroHomeOne() {
   return (
     <>
-      <section className={`appie-hero-area ${className || ""}`}>
+      <section className="imti-hero-area" id="hero">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div className="appie-hero-content p-3">
-                <h1 className="appie-title">
+              <div className="imti-hero-content p-3">
+                <h1 className="imti-title">
                   Satisfy Your Cravings, <br />
                   Anytime, <br />
                   Anywhere.
@@ -31,7 +29,7 @@ function HeroHomeOne({ className }) {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="appie-hero-thumb pt-3">
+              <div className="imti-hero-thumb pt-3">
                 <div
                   className="thumb wow animated fadeInUp"
                   data-wow-duration="2000ms"

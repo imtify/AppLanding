@@ -4,18 +4,18 @@ import React from "react";
 function ProjectHomeOne({ className }) {
   return (
     <>
-      <section className={`appie-project-area pb-100 ${className || ""}`}>
+      <section className={`imti-project-area pb-100 ${className || ""}`}>
         <div className="container pt-5 mt-5">
           <div className="row">
             <div className="col-lg-12">
               <div
-                className="appie-project-box wow animated slideInUp"
+                className="imti-project-box wow animated slideInUp"
                 data-wow-duration="1000ms"
                 data-wow-delay="0ms"
               >
                 <div className="row">
                   <div className="col-lg-6">
-                    <div className="appie-project-content">
+                    <div className="imti-project-content">
                       <h3 className="title">
                         Subscribe to Get Exiciting Offer
                       </h3>

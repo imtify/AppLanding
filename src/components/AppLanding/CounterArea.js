@@ -9,22 +9,22 @@ function CounterArea({ style }) {
   return (
     <>
       <section
-        className="appie-counter-area pt-90 pb-190"
+        className="imti-counter-area pt-90 pb-190"
         id="counter"
         style={style}
       >
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div className="appie-section-title">
-                <h3 className="appie-title">Love Our Customers Have Shown</h3>
+              <div className="imti-section-title">
+                <h3 className="imti-title">Love Our Customers Have Shown</h3>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-3 col-md-6">
               <div
-                className="appie-single-counter mt-30 wow animated fadeInUp"
+                className="imti-single-counter mt-30 wow animated fadeInUp"
                 data-wow-duration="2000ms"
                 data-wow-delay="200ms"
               >
@@ -38,13 +38,13 @@ function CounterArea({ style }) {
                     </span>
                     k+
                   </h3>
-                  <p>Active Installation</p>
+                  <p>Install</p>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
               <div
-                className="appie-single-counter mt-30 item-2 wow animated fadeInUp"
+                className="imti-single-counter mt-30 item-2 wow animated fadeInUp"
                 data-wow-duration="2000ms"
                 data-wow-delay="400ms"
               >
@@ -58,13 +58,13 @@ function CounterArea({ style }) {
                     </span>
                     +
                   </h3>
-                  <p>Active Installation</p>
+                  <p>Awarded</p>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
               <div
-                className="appie-single-counter mt-30 item-3 wow animated fadeInUp"
+                className="imti-single-counter mt-30 item-3 wow animated fadeInUp"
                 data-wow-duration="2000ms"
                 data-wow-delay="600ms"
               >
@@ -78,13 +78,13 @@ function CounterArea({ style }) {
                     </span>
                     +
                   </h3>
-                  <p>Active Installation</p>
+                  <p>Reacts</p>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
               <div
-                className="appie-single-counter mt-30 item-4 wow animated fadeInUp"
+                className="imti-single-counter mt-30 item-4 wow animated fadeInUp"
                 data-wow-duration="2000ms"
                 data-wow-delay="800ms"
               >
@@ -98,7 +98,7 @@ function CounterArea({ style }) {
                     </span>
                     k+
                   </h3>
-                  <p>Active Installation</p>
+                  <p>Comments</p>
                 </div>
               </div>
             </div>

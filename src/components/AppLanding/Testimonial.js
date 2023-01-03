@@ -24,14 +24,14 @@ function TestimonialHomeOne({ className }) {
 
   return (
     <section
-      className={`appie-testimonial-area pt-100 pb-160 ${className || ""}`}
+      className={`imti-testimonial-area pt-100 pb-160 ${className || ""}`}
       id="testimonial"
     >
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div
-              className="appie-testimonial-slider"
+              className="imti-testimonial-slider"
               style={{ position: "relative" }}
             >
               <span
@@ -44,7 +44,7 @@ function TestimonialHomeOne({ className }) {
                 <i className="fal fa-arrow-left" />
               </span>
               <Slider ref={sliderRef} dots arrows={false} {...settings}>
-                <div className="appie-testimonial-item text-center">
+                <div className="imti-testimonial-item text-center">
                   <div className="author-info">
                     <img src={user} alt="" />
                     <h5 className="title">Jason Response</h5>
@@ -71,7 +71,7 @@ function TestimonialHomeOne({ className }) {
                     </ul>
                   </div>
                 </div>
-                <div className="appie-testimonial-item text-center">
+                <div className="imti-testimonial-item text-center">
                   <div className="author-info">
                     <img src={user} alt="" />
                     <h5 className="title">Jason Response</h5>
@@ -98,7 +98,7 @@ function TestimonialHomeOne({ className }) {
                     </ul>
                   </div>
                 </div>
-                <div className="appie-testimonial-item text-center">
+                <div className="imti-testimonial-item text-center">
                   <div className="author-info">
                     <img src={user} alt="" />
                     <h5 className="title">Jason Response</h5>

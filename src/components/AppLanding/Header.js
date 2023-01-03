@@ -8,7 +8,7 @@ function HomeOneHeader({ className, action }) {
     StickyMenu();
   });
   return (
-    <header className={`appie-header-area appie-sticky ${className || ""}`}>
+    <header className={`imti-header-area imti-sticky ${className || ""}`}>
       <div className="container">
         <div className="header-nav-box">
           <div className="row align-items-center">
@@ -20,12 +20,12 @@ function HomeOneHeader({ className, action }) {
               </div>
             </div>
             <div className="col-lg-6 col-md-1 col-sm-1 order-3 order-sm-2">
-              <div className="appie-header-main-menu text-right">
+              <div className="imti-header-main-menu text-right">
                 <Navigation />
               </div>
             </div>
             <div className="col-lg-4  col-md-7 col-sm-6 col-6 order-2 order-sm-3">
-              <div className="appie-btn-box text-right">
+              <div className="imti-btn-box text-right">
                 <a className="signup-btn" href="#top">
                   <i className="fal fa-user" /> SignUp
                 </a>

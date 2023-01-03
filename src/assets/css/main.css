@@ -158,76 +158,76 @@ p {
   border-color: #2b70fa;
 }
 
-.appie-title h1 {
+.imti-title h1 {
   font-weight: 2000px;
 }
 
-.appie-section-title {
+.imti-section-title {
   padding-bottom: 25px;
 }
-.appie-section-title .appie-title {
+.imti-section-title .imti-title {
   font-size: 44px;
   line-height: 54px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-section-title .appie-title {
+  .imti-section-title .imti-title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-section-title .appie-title {
+  .imti-section-title .imti-title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 @media (max-width: 767px) {
-  .appie-section-title .appie-title {
+  .imti-section-title .imti-title {
     font-size: 26px;
     line-height: 36px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-section-title .appie-title {
+  .imti-section-title .imti-title {
     font-size: 36px;
     line-height: 46px;
   }
 }
-.appie-section-title p {
+.imti-section-title p {
   font-size: 18px;
   line-height: 28px;
   margin-top: 11px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-section-title p {
+  .imti-section-title p {
     font-size: 15px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-section-title p {
+  .imti-section-title p {
     font-size: 15px;
   }
 }
 @media (max-width: 767px) {
-  .appie-section-title p {
+  .imti-section-title p {
     font-size: 15px;
   }
 }
-.appie-section-title .main-btn {
+.imti-section-title .main-btn {
   border-radius: 30px;
   border: 2px solid #e7eaef;
   background: #fff;
   color: #0e1133;
 }
-.appie-section-title .main-btn:hover {
+.imti-section-title .main-btn:hover {
   background: #ff3e66;
   color: #fff;
   border-color: #ff3e66;
 }
-.appie-section-title.appie-section-title-2 .appie-title {
+.imti-section-title.imti-section-title-2 .imti-title {
   color: #fff;
 }
-.appie-section-title.appie-section-title-2 p {
+.imti-section-title.imti-section-title-2 p {
   color: #fff;
 }
 
@@ -669,7 +669,7 @@ p {
 /*===========================
   HEADER CSS 
 ===========================*/
-.appie-sticky.sticky {
+.imti-sticky.sticky {
   position: fixed;
   left: 0;
   top: 0;
@@ -682,7 +682,7 @@ p {
   animation: sticky 1.2s;
 }
 
-.appie-header-area {
+.imti-header-area {
   padding-top: 30px;
   position: absolute;
   left: 0;
@@ -691,80 +691,80 @@ p {
   z-index: 999;
 }
 
-.appie-header-area.appie-header-error-page {
+.imti-header-area.imti-header-error-page {
   box-shadow: 0px 10px 20px 0px rgba(14, 17, 51, 0.1);
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.header-nav-box .appie-btn-box {
+.header-nav-box .imti-btn-box {
   position: relative;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .header-nav-box .appie-btn-box {
+  .header-nav-box .imti-btn-box {
     padding-right: 50px;
   }
 }
 @media (max-width: 767px) {
-  .header-nav-box .appie-btn-box {
+  .header-nav-box .imti-btn-box {
     padding-right: 30px;
   }
 }
-.header-nav-box .appie-btn-box .login-btn {
+.header-nav-box .imti-btn-box .login-btn {
   color: #0e1133;
   font-size: 15px;
   font-weight: 500;
 }
-.header-nav-box .appie-btn-box .login-btn i {
+.header-nav-box .imti-btn-box .login-btn i {
   padding-right: 6px;
 }
 @media (max-width: 767px) {
-  .header-nav-box .appie-btn-box .main-btn {
+  .header-nav-box .imti-btn-box .main-btn {
     display: none;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .header-nav-box .appie-btn-box .main-btn {
+  .header-nav-box .imti-btn-box .main-btn {
     padding: 0 10px;
     display: inline-block;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-header-main-menu {
+  .imti-header-main-menu {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  .appie-header-main-menu {
+  .imti-header-main-menu {
     display: none;
   }
 }
-.appie-header-main-menu ul {
+.imti-header-main-menu ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-.appie-header-main-menu ul > li {
+.imti-header-main-menu ul > li {
   display: inline-block;
   margin-right: 30px;
   position: relative;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-header-main-menu ul > li {
+  .imti-header-main-menu ul > li {
     margin-right: 14px;
   }
 }
-.appie-header-main-menu ul > li > a {
+.imti-header-main-menu ul > li > a {
   font-size: 20px;
   font-weight: 600;
   color: #333983;
   line-height: 45px;
 }
-.appie-header-main-menu ul > li > a i {
+.imti-header-main-menu ul > li > a i {
   padding-left: 6px;
 }
-.appie-header-main-menu ul > li .sub-menu {
+.imti-header-main-menu ul > li .sub-menu {
   position: absolute;
   left: 0;
   top: 110%;
@@ -787,7 +787,7 @@ p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-header-main-menu ul > li .sub-menu {
+  .imti-header-main-menu ul > li .sub-menu {
     position: relative;
     width: 100%;
     left: 0;
@@ -816,7 +816,7 @@ p {
   }
 }
 @media (max-width: 767px) {
-  .appie-header-main-menu ul > li .sub-menu {
+  .imti-header-main-menu ul > li .sub-menu {
     position: relative;
     width: 100%;
     left: 0;
@@ -844,25 +844,25 @@ p {
     padding: 0;
   }
 }
-.appie-header-main-menu ul > li .sub-menu > li {
+.imti-header-main-menu ul > li .sub-menu > li {
   position: relative;
   margin-left: 0;
   display: block;
 }
-.appie-header-main-menu ul > li .sub-menu > li .sub-menu {
+.imti-header-main-menu ul > li .sub-menu > li .sub-menu {
   margin-left: 0px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-header-main-menu ul > li .sub-menu > li .sub-menu {
+  .imti-header-main-menu ul > li .sub-menu > li .sub-menu {
     margin-left: 0;
   }
 }
 @media (max-width: 767px) {
-  .appie-header-main-menu ul > li .sub-menu > li .sub-menu {
+  .imti-header-main-menu ul > li .sub-menu > li .sub-menu {
     margin-left: 0;
   }
 }
-.appie-header-main-menu ul > li .sub-menu > li .sub-nav-toggler {
+.imti-header-main-menu ul > li .sub-menu > li .sub-nav-toggler {
   color: #0e1133;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -870,7 +870,7 @@ p {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
-.appie-header-main-menu ul > li .sub-menu > li a {
+.imti-header-main-menu ul > li .sub-menu > li a {
   display: block;
   padding: 0px 30px;
   position: relative;
@@ -885,37 +885,37 @@ p {
   line-height: 2.5;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-  .appie-header-main-menu ul > li .sub-menu > li a {
+  .imti-header-main-menu ul > li .sub-menu > li a {
     padding: 0 20px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-header-main-menu ul > li .sub-menu > li a {
+  .imti-header-main-menu ul > li .sub-menu > li a {
     padding: 0 20px;
   }
 }
-.appie-header-main-menu ul > li .sub-menu > li a i {
+.imti-header-main-menu ul > li .sub-menu > li a i {
   float: right;
   font-size: 16px;
   margin-top: 10px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-header-main-menu ul > li .sub-menu > li a i {
+  .imti-header-main-menu ul > li .sub-menu > li a i {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  .appie-header-main-menu ul > li .sub-menu > li a i {
+  .imti-header-main-menu ul > li .sub-menu > li a i {
     display: none;
   }
 }
-.appie-header-main-menu ul > li .sub-menu > li a .sub-nav-toggler i {
+.imti-header-main-menu ul > li .sub-menu > li a .sub-nav-toggler i {
   display: inline-block;
 }
-.appie-header-main-menu ul > li .sub-menu > li a:hover {
+.imti-header-main-menu ul > li .sub-menu > li a:hover {
   padding-left: 35px;
 }
-.appie-header-main-menu ul > li .sub-menu > li .sub-menu {
+.imti-header-main-menu ul > li .sub-menu > li .sub-menu {
   right: auto;
   left: 100%;
   top: 50%;
@@ -928,7 +928,7 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-header-main-menu ul > li .sub-menu > li .sub-menu {
+  .imti-header-main-menu ul > li .sub-menu > li .sub-menu {
     padding-left: 30px;
     -webkit-transition: all 0s ease-out 0s;
     -moz-transition: all 0s ease-out 0s;
@@ -938,7 +938,7 @@ p {
   }
 }
 @media (max-width: 767px) {
-  .appie-header-main-menu ul > li .sub-menu > li .sub-menu {
+  .imti-header-main-menu ul > li .sub-menu > li .sub-menu {
     padding-left: 30px;
     -webkit-transition: all 0s ease-out 0s;
     -moz-transition: all 0s ease-out 0s;
@@ -947,10 +947,10 @@ p {
     transition: all 0s ease-out 0s;
   }
 }
-.appie-header-main-menu ul > li .sub-menu > li .sub-menu li {
+.imti-header-main-menu ul > li .sub-menu > li .sub-menu li {
   position: relative;
 }
-.appie-header-main-menu ul > li .sub-menu > li .sub-menu li .sub-menu {
+.imti-header-main-menu ul > li .sub-menu > li .sub-menu li .sub-menu {
   right: auto;
   left: 100%;
   top: 50%;
@@ -962,23 +962,23 @@ p {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
-.appie-header-main-menu ul > li .sub-menu > li .sub-menu li:hover .sub-menu {
+.imti-header-main-menu ul > li .sub-menu > li .sub-menu li:hover .sub-menu {
   top: 0%;
   opacity: 1;
   visibility: visible;
 }
-.appie-header-main-menu ul > li .sub-menu > li:hover .sub-menu {
+.imti-header-main-menu ul > li .sub-menu > li:hover .sub-menu {
   top: 0%;
   opacity: 1;
   visibility: visible;
 }
-.appie-header-main-menu ul > li .sub-menu > li:hover .sub-nav-toggler {
+.imti-header-main-menu ul > li .sub-menu > li:hover .sub-nav-toggler {
   color: #2b70fa;
 }
-.appie-header-main-menu ul > li .sub-menu > li:hover > a {
+.imti-header-main-menu ul > li .sub-menu > li:hover > a {
   color: #2b70fa;
 }
-.appie-header-main-menu ul > li:hover .sub-menu {
+.imti-header-main-menu ul > li:hover .sub-menu {
   opacity: 1;
   visibility: visible;
   top: 100%;
@@ -1000,22 +1000,22 @@ p {
     top: 0;
   }
 }
-.appie-header-8-area .header-nav-box .appie-btn-box .main-btn {
+.imti-header-8-area .header-nav-box .imti-btn-box .main-btn {
   background: #db0f30;
   border-color: #db0f30;
 }
-.appie-header-8-area .header-nav-box .appie-btn-box .main-btn:hover {
+.imti-header-8-area .header-nav-box .imti-btn-box .main-btn:hover {
   background: #fff;
   color: #db0f30;
 }
-.appie-header-8-area .header-nav-box .appie-header-main-menu ul > li a:hover {
+.imti-header-8-area .header-nav-box .imti-header-main-menu ul > li a:hover {
   color: #db0f30;
 }
 
 /*===========================
   HEROSECTION CSS 
 ===========================*/
-.appie-hero-area {
+.imti-hero-area {
   padding-top: 200px;
   padding-bottom: 110px;
   overflow: hidden;
@@ -1026,71 +1026,71 @@ p {
   background-repeat: no-repeat;
 }
 
-.appie-hero-content > span {
+.imti-hero-content > span {
   color: #2b70fa;
   font-size: 14px;
   font-weight: 500;
 }
-.appie-hero-content .appie-title {
+.imti-hero-content .imti-title {
   font-size: 60px;
   line-height: 70px;
   margin-top: 10px;
   margin-bottom: 22px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-hero-content .appie-title {
+  .imti-hero-content .imti-title {
     font-size: 48px;
     line-height: 58px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-hero-content .appie-title {
+  .imti-hero-content .imti-title {
     font-size: 48px;
     line-height: 58px;
   }
 }
 @media (max-width: 767px) {
-  .appie-hero-content .appie-title {
+  .imti-hero-content .imti-title {
     font-size: 28px;
     line-height: 38px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-hero-content .appie-title {
+  .imti-hero-content .imti-title {
     font-size: 36px;
     line-height: 46px;
   }
 }
-.appie-hero-content p {
+.imti-hero-content p {
   font-size: 18px;
   line-height: 28px;
 }
 @media (max-width: 767px) {
-  .appie-hero-content p {
+  .imti-hero-content p {
     font-size: 15px;
     line-height: 26px;
   }
 }
-.appie-hero-content ul {
+.imti-hero-content ul {
   margin: 41px 0 0;
   padding: 0;
   list-style-type: none;
 }
-.appie-hero-content ul li {
+.imti-hero-content ul li {
   display: inline-block;
   margin-right: 8px;
 }
 @media (max-width: 767px) {
-  .appie-hero-content ul li {
+  .imti-hero-content ul li {
     margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-hero-content ul li {
+  .imti-hero-content ul li {
     margin-bottom: 0px;
   }
 }
-.appie-hero-content ul li a {
+.imti-hero-content ul li a {
   background: #0e1133;
   color: #fff;
   line-height: 40px;
@@ -1098,27 +1098,27 @@ p {
   border-radius: 6px;
   border: 2px solid #0e1133;
 }
-.appie-hero-content ul li a i {
+.imti-hero-content ul li a i {
   padding-right: 6px;
 }
-.appie-hero-content ul li a:hover {
+.imti-hero-content ul li a:hover {
   background: transparent;
   color: #0e1133;
 }
 
-.appie-hero-thumb {
+.imti-hero-thumb {
   position: relative;
   z-index: 10;
   text-align: center;
 }
-.appie-hero-thumb .thumb-2 {
+.imti-hero-thumb .thumb-2 {
   position: absolute;
   right: -30px;
   top: 50%;
   transform: translateY(-50%);
   box-shadow: 0px 30px 70px 0px rgba(68, 1, 15, 0.2);
 }
-.appie-hero-thumb::before {
+.imti-hero-thumb::before {
   position: absolute;
   content: "";
   left: 50%;
@@ -1131,7 +1131,7 @@ p {
   z-index: -1;
 }
 
-.appie-page-title-area {
+.imti-page-title-area {
   height: 450px;
   background-image: url(../images/page-bg.jpg);
   background-size: cover;
@@ -1140,102 +1140,102 @@ p {
   display: flex;
   align-items: center;
 }
-.appie-page-title-area.appie-page-service-title-area {
+.imti-page-title-area.imti-page-service-title-area {
   height: 650px;
   background-image: url(../images/page-title-bg.jpg);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-page-title-area.appie-page-service-title-area {
+  .imti-page-title-area.imti-page-service-title-area {
     height: 500px;
   }
 }
 @media (max-width: 767px) {
-  .appie-page-title-area.appie-page-service-title-area {
+  .imti-page-title-area.imti-page-service-title-area {
     height: 400px;
   }
 }
-.appie-page-title-area.appie-page-service-title-area
-  .appie-page-title-item
+.imti-page-title-area.imti-page-service-title-area
+  .imti-page-title-item
   .thumb {
   right: 110px;
   width: auto;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-page-title-area.appie-page-service-title-area
-    .appie-page-title-item
+  .imti-page-title-area.imti-page-service-title-area
+    .imti-page-title-item
     .thumb {
     right: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-page-title-area.appie-page-service-title-area
-    .appie-page-title-item
+  .imti-page-title-area.imti-page-service-title-area
+    .imti-page-title-item
     .thumb {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  .appie-page-title-area.appie-page-service-title-area
-    .appie-page-title-item
+  .imti-page-title-area.imti-page-service-title-area
+    .imti-page-title-item
     .thumb {
     display: none;
   }
 }
 
-.appie-page-title-item {
+.imti-page-title-item {
   margin-top: 80px;
   position: relative;
 }
-.appie-page-title-item .thumb {
+.imti-page-title-item .thumb {
   position: absolute;
   right: 0;
   bottom: -100px;
   width: 160px;
 }
 @media (max-width: 767px) {
-  .appie-page-title-item .thumb {
+  .imti-page-title-item .thumb {
     display: none;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-page-title-item .thumb {
+  .imti-page-title-item .thumb {
     display: block;
   }
 }
-.appie-page-title-item span {
+.imti-page-title-item span {
   color: #fff;
   font-weight: 500;
   opacity: 0.7;
   padding-bottom: 14px;
 }
-.appie-page-title-item .title {
+.imti-page-title-item .title {
   color: #fff;
   font-size: 44px;
   font-weight: 700;
 }
 @media (max-width: 767px) {
-  .appie-page-title-item .title {
+  .imti-page-title-item .title {
     font-size: 26px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-page-title-item .title {
+  .imti-page-title-item .title {
     font-size: 32px;
   }
 }
-.appie-page-title-item nav {
+.imti-page-title-item nav {
   display: inline-block;
   margin-top: 20px;
 }
-.appie-page-title-item nav ol {
+.imti-page-title-item nav ol {
   background: transparent;
   padding: 0;
 }
-.appie-page-title-item nav ol li a {
+.imti-page-title-item nav ol li a {
   color: #fff;
   opacity: 0.8;
 }
-.appie-page-title-item nav ol li.active {
+.imti-page-title-item nav ol li.active {
   color: #fff;
   opacity: 0.8;
 }
@@ -1243,7 +1243,7 @@ p {
 /*===========================
   SERVICE CSS 
 ===========================*/
-.appie-service-area {
+.imti-service-area {
   background: #eef1f6;
   position: relative;
   background-image: url(../images/shape/shape-1.png);
@@ -1252,18 +1252,18 @@ p {
   background-size: auto;
 }
 
-.appie-single-service {
+.imti-single-service {
   padding: 50px 30px 43px;
   background: #fff;
   border-radius: 6px;
   transition: all linear 0.3s;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-single-service {
+  .imti-single-service {
     padding: 50px 15px 43px;
   }
 }
-.appie-single-service .icon {
+.imti-single-service .icon {
   display: inline-block;
   border-radius: 20px;
   height: 70px;
@@ -1274,7 +1274,7 @@ p {
   box-shadow: 0px 6px 10px 0px rgba(16, 73, 189, 0.3);
   position: relative;
 }
-.appie-single-service .icon > span {
+.imti-single-service .icon > span {
   position: absolute;
   right: -10px;
   top: -10px;
@@ -1287,32 +1287,32 @@ p {
   line-height: 28px;
   color: #fff;
 }
-.appie-single-service .appie-title {
+.imti-single-service .imti-title {
   font-size: 20px;
   font-weight: 700;
   padding-top: 33px;
   padding-bottom: 10px;
 }
-.appie-single-service:hover {
+.imti-single-service:hover {
   box-shadow: 0px 40px 40px 0px rgba(14, 17, 51, 0.1);
   transform: translateY(-15px);
 }
-.appie-single-service.item-2 .icon {
+.imti-single-service.item-2 .icon {
   background: linear-gradient(135deg, #f7b8af 0%, #f8452d 100%);
 }
-.appie-single-service.item-2 .icon span {
+.imti-single-service.item-2 .icon span {
   background: #f8452d;
 }
-.appie-single-service.item-3 .icon {
+.imti-single-service.item-3 .icon {
   background: linear-gradient(135deg, #a0eac2 0%, #31c369 100%);
 }
-.appie-single-service.item-3 .icon span {
+.imti-single-service.item-3 .icon span {
   background: #31c369;
 }
-.appie-single-service.item-4 .icon {
+.imti-single-service.item-4 .icon {
   background: linear-gradient(135deg, #d8aaff 0%, #9b2cfa 100%);
 }
-.appie-single-service.item-4 .icon span {
+.imti-single-service.item-4 .icon span {
   background: #9b2cfa;
 }
 
@@ -1377,26 +1377,26 @@ p {
 /*===========================
   Feature CSS 
 ===========================*/
-.appie-features-area {
+.imti-features-area {
   position: relative;
   z-index: 10;
   overflow: hidden;
 }
-.appie-features-area .features-shape-1 {
+.imti-features-area .features-shape-1 {
   position: absolute;
   left: 560px;
   top: 130px;
   animation: animationFramesOne 20s linear infinite;
   z-index: -1;
 }
-.appie-features-area .features-shape-2 {
+.imti-features-area .features-shape-2 {
   position: absolute;
   left: 500px;
   bottom: 0px;
   animation: animationFramesThree 20s linear infinite;
   z-index: -1;
 }
-.appie-features-area .features-shape-3 {
+.imti-features-area .features-shape-3 {
   position: absolute;
   right: 270px;
   bottom: 0;
@@ -1405,20 +1405,20 @@ p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-features-tabs-btn .nav {
+  .imti-features-tabs-btn .nav {
     flex-direction: row !important;
     justify-content: center;
     margin-bottom: 40px;
   }
 }
 @media (max-width: 767px) {
-  .appie-features-tabs-btn .nav {
+  .imti-features-tabs-btn .nav {
     flex-direction: row !important;
     justify-content: center;
     margin-bottom: 40px;
   }
 }
-.appie-features-tabs-btn .nav a {
+.imti-features-tabs-btn .nav a {
   border-right: 3px solid #e8eaef;
   border-radius: 0;
   font-size: 15px;
@@ -1426,19 +1426,19 @@ p {
   color: #505056;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-features-tabs-btn .nav a {
+  .imti-features-tabs-btn .nav a {
     padding-right: 20px;
     padding-left: 20px;
   }
 }
 @media (max-width: 767px) {
-  .appie-features-tabs-btn .nav a {
+  .imti-features-tabs-btn .nav a {
     padding-right: 15px;
     padding-left: 15px;
     margin-bottom: 20px;
   }
 }
-.appie-features-tabs-btn .nav a i {
+.imti-features-tabs-btn .nav a i {
   height: 35px;
   width: 35px;
   text-align: center;
@@ -1449,87 +1449,87 @@ p {
   border-radius: 50%;
   margin-right: 10px;
 }
-.appie-features-tabs-btn .nav a.active {
+.imti-features-tabs-btn .nav a.active {
   border-right-color: #2b70fa;
   background: transparent;
   color: #2b70fa;
 }
-.appie-features-tabs-btn .nav a.active i {
+.imti-features-tabs-btn .nav a.active i {
   color: #fff;
   background: #2b70fa;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-features-content {
+  .imti-features-content {
     padding-top: 40px;
   }
 }
 @media (max-width: 767px) {
-  .appie-features-content {
+  .imti-features-content {
     padding-top: 30px;
   }
 }
-.appie-features-content span {
+.imti-features-content span {
   font-size: 14px;
   font-weight: 500;
   color: #2b70fa;
   margin-bottom: 8px;
 }
-.appie-features-content .title {
+.imti-features-content .title {
   font-size: 44px;
   line-height: 54px;
   margin-bottom: 10px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-features-content .title {
+  .imti-features-content .title {
     font-size: 36px;
     line-height: 44px;
   }
 }
 @media (max-width: 767px) {
-  .appie-features-content .title {
+  .imti-features-content .title {
     font-size: 30px;
     line-height: 40px;
   }
 }
-.appie-features-content p {
+.imti-features-content p {
   font-size: 18px;
   line-height: 28px;
   padding-bottom: 30px;
 }
 
-.appie-features-area-2 {
+.imti-features-area-2 {
   background: #1631ba;
   position: relative;
   overflow: hidden;
   z-index: 10;
 }
-.appie-features-area-2 .features-shape-1 {
+.imti-features-area-2 .features-shape-1 {
   position: absolute;
   left: 240px;
   top: 240px;
   z-index: -1;
   animation: linear 20s animationFramesThree infinite;
 }
-.appie-features-area-2 .features-shape-2 {
+.imti-features-area-2 .features-shape-2 {
   position: absolute;
   right: 190px;
   top: 160px;
   z-index: -1;
   animation: linear 20s animationFramesFive infinite;
 }
-.appie-features-area-2 .features-shape-3 {
+.imti-features-area-2 .features-shape-3 {
   position: absolute;
   right: 160px;
   bottom: 260px;
   z-index: -1;
   animation: linear 20s animationFramesOne infinite;
 }
-.appie-features-area-2.appie-features-area-5 {
+.imti-features-area-2.imti-features-area-5 {
   background: #fff;
 }
 
-.appie-features-box-item {
+.imti-features-box-item {
   border: 1px solid #202234;
   padding: 25px 30px 30px 70px;
   border-radius: 6px;
@@ -1543,41 +1543,41 @@ p {
   margin-right: 70px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-features-box-item {
+  .imti-features-box-item {
     margin-left: 0;
     margin-right: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-features-box-item {
+  .imti-features-box-item {
     margin-left: 50px;
     margin-right: 50px;
   }
 }
 @media (max-width: 767px) {
-  .appie-features-box-item {
+  .imti-features-box-item {
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 60px;
   }
 }
-.appie-features-box-item .title {
+.imti-features-box-item .title {
   color: #fff;
   font-size: 24px;
   font-weight: 700;
   position: relative;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-features-box-item .title {
+  .imti-features-box-item .title {
     font-size: 20px;
   }
 }
 @media (max-width: 767px) {
-  .appie-features-box-item .title {
+  .imti-features-box-item .title {
     font-size: 20px;
   }
 }
-.appie-features-box-item .title::before {
+.imti-features-box-item .title::before {
   position: absolute;
   content: "";
   left: -40px;
@@ -1588,130 +1588,130 @@ p {
   border: 6px solid #2a182d;
   border-radius: 50%;
 }
-.appie-features-box-item p {
+.imti-features-box-item p {
   font-size: 14px;
   opacity: 0.6;
   color: #fff;
   margin-top: 3px;
 }
-.appie-features-box-item:hover {
+.imti-features-box-item:hover {
   border-color: #ff3e66;
 }
-.appie-features-box-item.item-2 .title::before {
+.imti-features-box-item.item-2 .title::before {
   background: #2eacfc;
   border-color: #15233d;
 }
-.appie-features-box-item.item-2:hover {
+.imti-features-box-item.item-2:hover {
   border-color: #2eacfc;
 }
-.appie-features-box-item.item-3 .title::before {
+.imti-features-box-item.item-3 .title::before {
   background: #33c956;
   border-color: #15262c;
 }
-.appie-features-box-item.item-3:hover {
+.imti-features-box-item.item-3:hover {
   border-color: #33c956;
 }
-.appie-features-box-item.appie-features-box-5-item .title {
+.imti-features-box-item.imti-features-box-5-item .title {
   color: #0e1133;
 }
-.appie-features-box-item.appie-features-box-5-item .title::before {
+.imti-features-box-item.imti-features-box-5-item .title::before {
   border-color: rgba(9, 8, 8, 0.21);
 }
-.appie-features-box-item.appie-features-box-5-item p {
+.imti-features-box-item.imti-features-box-5-item p {
   color: #505056;
   opacity: 1;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-features-thumb {
+  .imti-features-thumb {
     text-align: center;
     margin-top: 50px;
   }
 }
 @media (max-width: 767px) {
-  .appie-features-thumb {
+  .imti-features-thumb {
     text-align: center;
     margin-top: 50px;
   }
 }
 
-.appie-features-6-area .appie-features-tabs-btn .nav a.active {
+.imti-features-6-area .imti-features-tabs-btn .nav a.active {
   color: #9b2cfa;
   border-right-color: #9b2cfa;
 }
-.appie-features-6-area .appie-features-tabs-btn .nav a.active i {
+.imti-features-6-area .imti-features-tabs-btn .nav a.active i {
   background: #9b2cfa;
 }
-.appie-features-6-area .appie-features-content > span {
+.imti-features-6-area .imti-features-content > span {
   color: #9b2cfa;
 }
-.appie-features-6-area .appie-features-content a {
+.imti-features-6-area .imti-features-content a {
   background: #9b2cfa;
   border-color: #9b2cfa;
 }
-.appie-features-6-area .appie-features-content a:hover {
+.imti-features-6-area .imti-features-content a:hover {
   background: #fff;
   color: #9b2cfa;
 }
 
 /*===========================
-    6.APPIE TRAFFICE css 
+    6.imti TRAFFICE css 
 ===========================*/
 
 /*===========================
   Testimonial css 
 ===========================*/
-.appie-testimonial-area {
+.imti-testimonial-area {
   background-image: url(../images/testimonial-bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.appie-testimonial-slider-rtl .appie-testimonial-item .author-info,
-.appie-testimonial-slider .appie-testimonial-item .author-info {
+.imti-testimonial-slider-rtl .imti-testimonial-item .author-info,
+.imti-testimonial-slider .imti-testimonial-item .author-info {
   margin-bottom: 15px;
 }
-.appie-testimonial-slider-rtl .appie-testimonial-item .author-info img,
-.appie-testimonial-slider .appie-testimonial-item .author-info img {
+.imti-testimonial-slider-rtl .imti-testimonial-item .author-info img,
+.imti-testimonial-slider .imti-testimonial-item .author-info img {
   display: inline-block;
 }
-.appie-testimonial-slider-rtl .appie-testimonial-item .author-info .title,
-.appie-testimonial-slider .appie-testimonial-item .author-info .title {
+.imti-testimonial-slider-rtl .imti-testimonial-item .author-info .title,
+.imti-testimonial-slider .imti-testimonial-item .author-info .title {
   font-weight: 500;
   font-size: 16px;
   color: #fff;
   padding-top: 10px;
 }
-.appie-testimonial-slider-rtl .appie-testimonial-item .author-info span,
-.appie-testimonial-slider .appie-testimonial-item .author-info span {
+.imti-testimonial-slider-rtl .imti-testimonial-item .author-info span,
+.imti-testimonial-slider .imti-testimonial-item .author-info span {
   font-size: 14px;
   color: #fff;
   opacity: 0.5;
 }
-.appie-testimonial-slider-rtl .appie-testimonial-item .text p,
-.appie-testimonial-slider .appie-testimonial-item .text p {
+.imti-testimonial-slider-rtl .imti-testimonial-item .text p,
+.imti-testimonial-slider .imti-testimonial-item .text p {
   font-size: 20px;
   line-height: 30px;
   color: #fff;
 }
-.appie-testimonial-slider-rtl .appie-testimonial-item .text ul,
-.appie-testimonial-slider .appie-testimonial-item .text ul {
+.imti-testimonial-slider-rtl .imti-testimonial-item .text ul,
+.imti-testimonial-slider .imti-testimonial-item .text ul {
   margin: 10px 0 0;
   padding: 0;
   list-style-type: none;
 }
-.appie-testimonial-slider-rtl .appie-testimonial-item .text ul li,
-.appie-testimonial-slider .appie-testimonial-item .text ul li {
+.imti-testimonial-slider-rtl .imti-testimonial-item .text ul li,
+.imti-testimonial-slider .imti-testimonial-item .text ul li {
   display: inline-block;
   margin: 0 2px;
 }
-.appie-testimonial-slider-rtl .appie-testimonial-item .text ul li i,
-.appie-testimonial-slider .appie-testimonial-item .text ul li i {
+.imti-testimonial-slider-rtl .imti-testimonial-item .text ul li i,
+.imti-testimonial-slider .imti-testimonial-item .text ul li i {
   color: #ffb848;
 }
-.appie-testimonial-slider-rtl .slick-arrow,
-.appie-testimonial-slider .slick-arrow {
+.imti-testimonial-slider-rtl .slick-arrow,
+.imti-testimonial-slider .slick-arrow {
   position: absolute;
   top: 62%;
   transform: translateY(-50%);
@@ -1721,27 +1721,27 @@ p {
   cursor: pointer;
   opacity: 0.5;
 }
-.appie-testimonial-slider-rtl .slick-arrow.prev,
-.appie-testimonial-slider .slick-arrow.prev {
+.imti-testimonial-slider-rtl .slick-arrow.prev,
+.imti-testimonial-slider .slick-arrow.prev {
   left: -80px;
 }
-.appie-testimonial-slider-rtl .slick-arrow.next,
-.appie-testimonial-slider .slick-arrow.next {
+.imti-testimonial-slider-rtl .slick-arrow.next,
+.imti-testimonial-slider .slick-arrow.next {
   right: -80px;
 }
-.appie-testimonial-slider-rtl .slick-dots,
-.appie-testimonial-slider .slick-dots {
+.imti-testimonial-slider-rtl .slick-dots,
+.imti-testimonial-slider .slick-dots {
   position: absolute;
   left: 50%;
   bottom: -65px;
   transform: translateX(-50%);
 }
-.appie-testimonial-slider-rtl .slick-dots li,
-.appie-testimonial-slider .slick-dots li {
+.imti-testimonial-slider-rtl .slick-dots li,
+.imti-testimonial-slider .slick-dots li {
   display: inline-block;
 }
-.appie-testimonial-slider-rtl .slick-dots li button,
-.appie-testimonial-slider .slick-dots li button {
+.imti-testimonial-slider-rtl .slick-dots li button,
+.imti-testimonial-slider .slick-dots li button {
   border: 0;
   background: #fff;
   height: 8px;
@@ -1751,21 +1751,21 @@ p {
   opacity: 0.5;
   margin: 0 4px;
 }
-.appie-testimonial-slider-rtl .slick-dots li.slick-active button,
-.appie-testimonial-slider .slick-dots li.slick-active button {
+.imti-testimonial-slider-rtl .slick-dots li.slick-active button,
+.imti-testimonial-slider .slick-dots li.slick-active button {
   opacity: 1;
 }
 
-.appie-testimonial-about-area {
+.imti-testimonial-about-area {
   background-image: url(../images/map-bg.png);
   background-size: auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
-.appie-testimonial-about-area .appie-section-title {
+.imti-testimonial-about-area .imti-section-title {
   margin-bottom: 30px;
 }
-.appie-testimonial-about-area .appie-section-title .appie-title {
+.imti-testimonial-about-area .imti-section-title .imti-title {
   padding: 0 30px;
 }
 
@@ -1921,12 +1921,12 @@ p {
 /*===========================
   Restaurent css 
 ===========================*/
-.appie-team-item .thumb {
+.imti-team-item .thumb {
   position: relative;
   z-index: 10;
   overflow: hidden;
 }
-.appie-team-item .thumb img {
+.imti-team-item .thumb img {
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -1934,7 +1934,7 @@ p {
   transition: all 0.3s ease-out 0s;
   width: 100%;
 }
-.appie-team-item .thumb::before {
+.imti-team-item .thumb::before {
   position: absolute;
   content: "";
   left: 0;
@@ -1951,7 +1951,7 @@ p {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
-.appie-team-item .thumb ul {
+.imti-team-item .thumb ul {
   position: absolute;
   left: 50%;
   bottom: 30px;
@@ -1968,11 +1968,11 @@ p {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
-.appie-team-item .thumb ul li {
+.imti-team-item .thumb ul li {
   display: inline-block;
   margin: 0 3px;
 }
-.appie-team-item .thumb ul li a {
+.imti-team-item .thumb ul li a {
   display: inline-block;
   height: 36px;
   width: 36px;
@@ -1982,48 +1982,48 @@ p {
   border-radius: 50px;
   color: #fff;
 }
-.appie-team-item .thumb ul li a:hover {
+.imti-team-item .thumb ul li a:hover {
   background: #fff;
   color: #2b70fa;
   border-color: #fff;
 }
-.appie-team-item .content {
+.imti-team-item .content {
   padding-top: 27px;
 }
-.appie-team-item .content .title {
+.imti-team-item .content .title {
   font-size: 18px;
   font-weight: 700;
   padding-bottom: 8px;
 }
-.appie-team-item .content span {
+.imti-team-item .content span {
   font-size: 14px;
   color: #81818d;
 }
-.appie-team-item:hover .thumb::before {
+.imti-team-item:hover .thumb::before {
   opacity: 0.5;
 }
-.appie-team-item:hover .thumb ul {
+.imti-team-item:hover .thumb ul {
   opacity: 1;
   visibility: visible;
 }
-.appie-team-item:hover .thumb img {
+.imti-team-item:hover .thumb img {
   transform: scale(1.1);
 }
-.appie-team-item.appie-team-item-about .thumb {
+.imti-team-item.imti-team-item-about .thumb {
   border-radius: 6px;
   overflow: hidden;
 }
-.appie-team-item.appie-team-item-about .thumb::before {
+.imti-team-item.imti-team-item-about .thumb::before {
   background-color: #2b70fa;
 }
-.appie-team-item.appie-team-item-about .thumb ul {
+.imti-team-item.imti-team-item-about .thumb ul {
   left: 30px;
   transform: translateX(0);
 }
-.appie-team-item.appie-team-item-about .thumb ul li a {
+.imti-team-item.imti-team-item-about .thumb ul li a {
   border-radius: 6px;
 }
-.appie-team-item.appie-team-item-about:hover .thumb::before {
+.imti-team-item.imti-team-item-about:hover .thumb::before {
   opacity: 0.9;
 }
 
@@ -2041,18 +2041,18 @@ p {
   color: #fff;
 }
 
-.appie-team-about-area .team-btn a {
+.imti-team-about-area .team-btn a {
   border-color: #2b70fa;
   color: #2b70fa;
 }
-.appie-team-about-area .team-btn a:hover {
+.imti-team-about-area .team-btn a:hover {
   color: #fff;
 }
 
 /*===========================
   FAQ CSS 
 ===========================*/
-.appie-faq-area {
+.imti-faq-area {
   background: #eef1f6;
   position: relative;
   background-image: url(../images/shape/faq-shape.png);
@@ -2259,7 +2259,7 @@ p {
 /*===========================
   Subscriber CSS 
 ===========================*/
-.appie-project-area .appie-project-box {
+.imti-project-area .imti-project-box {
   background-image: url(../images/project-bg.jpg);
   background-size: cover;
   background-position: center;
@@ -2272,88 +2272,88 @@ p {
   border-radius: 10px;
 }
 @media (max-width: 767px) {
-  .appie-project-area .appie-project-box {
+  .imti-project-area .imti-project-box {
     padding-left: 30px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-project-area .appie-project-box {
+  .imti-project-area .imti-project-box {
     padding-left: 70px;
   }
 }
-.appie-project-area .appie-project-box .appie-project-thumb {
+.imti-project-area .imti-project-box .imti-project-thumb {
   position: absolute;
   right: 70px;
   bottom: 0;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-project-area .appie-project-box .appie-project-thumb {
+  .imti-project-area .imti-project-box .imti-project-thumb {
     right: 30px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-project-area .appie-project-box .appie-project-thumb {
+  .imti-project-area .imti-project-box .imti-project-thumb {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  .appie-project-area .appie-project-box .appie-project-thumb {
+  .imti-project-area .imti-project-box .imti-project-thumb {
     display: none;
   }
 }
 
-.appie-project-content {
+.imti-project-content {
   padding-right: 50px;
 }
-.appie-project-content .title {
+.imti-project-content .title {
   color: #fff;
   font-size: 50px;
   line-height: 60px;
   padding-bottom: 10px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-project-content .title {
+  .imti-project-content .title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 @media (max-width: 767px) {
-  .appie-project-content .title {
+  .imti-project-content .title {
     font-size: 30px;
     line-height: 40px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-project-content .title {
+  .imti-project-content .title {
     font-size: 36px;
     line-height: 46px;
   }
 }
-.appie-project-content p {
+.imti-project-content p {
   color: #fff;
   opacity: 0.8;
 }
-.appie-project-content .input-box {
+.imti-project-content .input-box {
   display: flex;
 }
 @media (max-width: 767px) {
-  .appie-project-content .input-box {
+  .imti-project-content .input-box {
     display: block;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-project-content .input-box {
+  .imti-project-content .input-box {
     display: flex;
   }
 }
-.appie-project-content .input-box input {
+.imti-project-content .input-box input {
   width: 100%;
   height: 50px;
   padding-left: 30px;
   border-radius: 6px;
   border: 0;
 }
-.appie-project-content .input-box button {
+.imti-project-content .input-box button {
   margin-left: 10px;
   padding: 0 30px;
   border-radius: 6px;
@@ -2364,23 +2364,23 @@ p {
   line-height: 50px;
 }
 @media (max-width: 767px) {
-  .appie-project-content .input-box button {
+  .imti-project-content .input-box button {
     margin-top: 20px;
     margin-left: 0;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-project-content .input-box button {
+  .imti-project-content .input-box button {
     margin-top: 0px;
     margin-left: 10px;
   }
 }
 
-.appie-project-3-area.appie-project-5-area {
+.imti-project-3-area.imti-project-5-area {
   background: #eef1f6;
 }
 
-.appie-project-3-box {
+.imti-project-3-box {
   background-image: url(../images/project-bg-2.jpg);
   background-size: cover;
   background-position: center;
@@ -2394,29 +2394,29 @@ p {
   z-index: 10;
 }
 @media (max-width: 767px) {
-  .appie-project-3-box {
+  .imti-project-3-box {
     text-align: center;
   }
 }
-.appie-project-3-box .title {
+.imti-project-3-box .title {
   color: #fff;
   font-size: 46px;
   line-height: 56px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-project-3-box .title {
+  .imti-project-3-box .title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 @media (max-width: 767px) {
-  .appie-project-3-box .title {
+  .imti-project-3-box .title {
     font-size: 35px;
     line-height: 46px;
     margin-bottom: 30px;
   }
 }
-.appie-project-3-box a {
+.imti-project-3-box a {
   background: #fff;
   color: #0e1133;
   border-color: #fff;
@@ -2425,15 +2425,15 @@ p {
 }
 
 /*===========================
-    10.APPIE FOOTER css 
+    10.imti FOOTER css 
 ===========================*/
-.appie-footer-area {
+.imti-footer-area {
   background: #eef1f6;
   padding-top: 50px;
   padding-bottom: 60px;
 }
 
-.appie-footer-area.appie-footer-about-area {
+.imti-footer-area.imti-footer-about-area {
   padding-top: 230px;
 }
 
@@ -2626,30 +2626,30 @@ p {
   color: #0e1133;
 }
 
-.appie-error-area {
+.imti-error-area {
   padding-top: 250px;
 }
 
-.appie-error-content span {
+.imti-error-content span {
   display: block;
   font-size: 50px;
   color: #db0f30;
   font-weight: 800;
   padding-top: 40px;
 }
-.appie-error-content .title {
+.imti-error-content .title {
   font-size: 50px;
   font-weight: 800;
   color: #0e1133;
   padding-bottom: 11px;
 }
-.appie-error-content p {
+.imti-error-content p {
   line-height: 26px;
   color: #505056;
   font-size: 16px;
   padding: 0 50px;
 }
-.appie-error-content a {
+.imti-error-content a {
   border: 2px solid #2b70fa;
   line-height: 45px;
   padding: 0 35px;
@@ -2657,18 +2657,14 @@ p {
   margin-top: 30px;
 }
 
-.appie-signup-area.appie-signup-8-area {
+.imti-signup-area.imti-signup-8-area {
   background: #eef1f6;
 }
-.appie-signup-area.appie-signup-8-area
-  .appie-signup-box
-  form
-  .input-box
-  button {
+.imti-signup-area.imti-signup-8-area .imti-signup-box form .input-box button {
   background: #db0f30;
 }
 
-.appie-signup-box {
+.imti-signup-box {
   background-image: url(../images/signup-bg.jpg);
   padding: 63px 100px 60px;
   border-radius: 10px;
@@ -2678,64 +2674,64 @@ p {
   margin-bottom: -160px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-signup-box {
+  .imti-signup-box {
     padding: 30px 50px;
   }
 }
 @media (max-width: 767px) {
-  .appie-signup-box {
+  .imti-signup-box {
     padding: 30px;
   }
 }
-.appie-signup-box .thumb {
+.imti-signup-box .thumb {
   position: absolute;
   right: 70px;
   bottom: 30px;
   width: 160px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-signup-box .thumb {
+  .imti-signup-box .thumb {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  .appie-signup-box .thumb {
+  .imti-signup-box .thumb {
     display: none;
   }
 }
-.appie-signup-box span {
+.imti-signup-box span {
   color: #fff;
   font-weight: 500;
 }
-.appie-signup-box .title {
+.imti-signup-box .title {
   font-size: 46px;
   color: #fff;
   padding-bottom: 20px;
 }
 @media (max-width: 767px) {
-  .appie-signup-box .title {
+  .imti-signup-box .title {
     font-size: 30px;
   }
 }
-.appie-signup-box form {
+.imti-signup-box form {
   display: flex;
   flex-wrap: wrap;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-signup-box form {
+  .imti-signup-box form {
     flex-direction: column;
   }
 }
 @media (max-width: 767px) {
-  .appie-signup-box form {
+  .imti-signup-box form {
     flex-direction: column;
   }
 }
-.appie-signup-box form .input-box {
+.imti-signup-box form .input-box {
   margin-right: 10px;
   margin-top: 10px;
 }
-.appie-signup-box form .input-box input {
+.imti-signup-box form .input-box input {
   width: 300px;
   background: #fff;
   line-height: 55px;
@@ -2744,16 +2740,16 @@ p {
   border: 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-signup-box form .input-box input {
+  .imti-signup-box form .input-box input {
     width: 100%;
   }
 }
 @media (max-width: 767px) {
-  .appie-signup-box form .input-box input {
+  .imti-signup-box form .input-box input {
     width: 100%;
   }
 }
-.appie-signup-box form .input-box button {
+.imti-signup-box form .input-box button {
   background: #2b70fa;
   line-height: 55px;
   border: 0;
@@ -2763,11 +2759,11 @@ p {
   font-weight: 500;
 }
 
-.appie_checkbox_common {
+.imti_checkbox_common {
   margin-top: 15px;
 }
 
-.appie_checkbox_common label {
+.imti_checkbox_common label {
   color: #fff;
   font-size: 14px;
   margin-bottom: 12px;
@@ -2775,16 +2771,16 @@ p {
   font-weight: 400;
 }
 
-.appie_checkbox_common label a {
+.imti_checkbox_common label a {
   text-decoration: underline;
   color: #b3b6bc;
 }
 
-.appie_checkbox_common input[type="checkbox"] {
+.imti_checkbox_common input[type="checkbox"] {
   display: none;
 }
 
-.appie_checkbox_common input[type="checkbox"] + label span {
+.imti_checkbox_common input[type="checkbox"] + label span {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -2797,7 +2793,7 @@ p {
   position: relative;
 }
 
-.appie_checkbox_common input[type="checkbox"] + label span:before {
+.imti_checkbox_common input[type="checkbox"] + label span:before {
   color: #fff;
   content: "\f00c";
   font-family: "Font Awesome 5 Pro";
@@ -2818,12 +2814,12 @@ p {
   transition: 0.2s;
 }
 
-.appie_checkbox_common input[type="checkbox"]:checked + label span {
+.imti_checkbox_common input[type="checkbox"]:checked + label span {
   background: #2079ff;
   border-color: #2079ff;
 }
 
-.appie_checkbox_common input[type="checkbox"]:checked + label span:before {
+.imti_checkbox_common input[type="checkbox"]:checked + label span:before {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -2831,15 +2827,15 @@ p {
   transform: scale(1);
 }
 
-.appie_checkbox_common input[type="checkbox"] + label span,
-.appie_checkbox_common input[type="checkbox"]:checked + label span {
+.imti_checkbox_common input[type="checkbox"] + label span,
+.imti_checkbox_common input[type="checkbox"]:checked + label span {
   -webkit-transition: background-color 0.2s linear;
   -o-transition: background-color 0.2s linear;
   -moz-transition: background-color 0.2s linear;
   transition: background-color 0.2s linear;
 }
 
-.appie_checkbox_common.checkbox_style2 input[type="checkbox"] + label span {
+.imti_checkbox_common.checkbox_style2 input[type="checkbox"] + label span {
   border-radius: 3px;
 }
 
@@ -2847,17 +2843,17 @@ p {
     11.COUNTERAREA CSS 
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-counter-area {
+  .imti-counter-area {
     padding-bottom: 100px;
   }
 }
 @media (max-width: 767px) {
-  .appie-counter-area {
+  .imti-counter-area {
     padding-bottom: 100px;
   }
 }
 
-.appie-single-counter {
+.imti-single-counter {
   padding: 30px;
   position: relative;
   background: #fff;
@@ -2869,21 +2865,21 @@ p {
   border-radius: 10px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-single-counter {
+  .imti-single-counter {
     padding: 20px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-single-counter {
+  .imti-single-counter {
     margin-bottom: 90px;
   }
 }
 @media (max-width: 767px) {
-  .appie-single-counter {
+  .imti-single-counter {
     margin-bottom: 90px;
   }
 }
-.appie-single-counter .counter-content {
+.imti-single-counter .counter-content {
   background: #fff;
   text-align: center;
   border-radius: 6px;
@@ -2891,27 +2887,27 @@ p {
   padding-top: 37px;
   padding-bottom: 40px;
 }
-.appie-single-counter .counter-content .title {
+.imti-single-counter .counter-content .title {
   font-size: 40px;
   font-weight: 400;
   margin-top: 5px;
 }
-.appie-single-counter .counter-content .title span {
+.imti-single-counter .counter-content .title span {
   font-weight: 700;
 }
-.appie-single-counter .counter-content p {
+.imti-single-counter .counter-content p {
   font-size: 14px;
   font-weight: 500;
 }
 
 /*===========================
-    13.APPIE VIDEO PLAYER css 
+    13.imti VIDEO PLAYER css 
 ===========================*/
 
 /*===========================
-    14.APPIE DOWNLOAD css 
+    14.imti DOWNLOAD css 
 ===========================*/
-.appie-download-area {
+.imti-download-area {
   background-image: url(../images/download-bg.png);
   background-size: cover;
   background-position: center;
@@ -2921,12 +2917,12 @@ p {
   z-index: 10;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-download-area {
+  .imti-download-area {
     padding-top: 80px;
     padding-bottom: 80px;
   }
 }
-.appie-download-area::before {
+.imti-download-area::before {
   position: absolute;
   content: "";
   right: 170px;
@@ -2941,74 +2937,74 @@ p {
   z-index: -1;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-download-area::before {
+  .imti-download-area::before {
     right: 0;
     width: 550px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-download-area::before {
+  .imti-download-area::before {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  .appie-download-area::before {
+  .imti-download-area::before {
     display: none;
   }
 }
-.appie-download-area .download-shape-1 {
+.imti-download-area .download-shape-1 {
   position: absolute;
   left: 95px;
   top: 95px;
   z-index: -1;
   animation: linear 20s animationFramesFour infinite;
 }
-.appie-download-area .download-shape-2 {
+.imti-download-area .download-shape-2 {
   position: absolute;
   left: 150px;
   bottom: 100px;
   z-index: -1;
   animation: linear 20s animationFramesTwo infinite;
 }
-.appie-download-area .download-shape-3 {
+.imti-download-area .download-shape-3 {
   position: absolute;
   top: 140px;
   right: 250px;
   z-index: -1;
   animation: linear 20s animationFramesFive infinite;
 }
-.appie-download-content > span {
+.imti-download-content > span {
   font-size: 14px;
   font-weight: 500;
   color: #ff3e66;
 }
-.appie-download-content .title {
+.imti-download-content .title {
   font-size: 44px;
   line-height: 54px;
   margin-top: 9px;
   margin-bottom: 13px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-download-content .title {
+  .imti-download-content .title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 @media (max-width: 767px) {
-  .appie-download-content .title {
+  .imti-download-content .title {
     font-size: 30px;
     line-height: 40px;
   }
 }
-.appie-download-content ul {
+.imti-download-content ul {
   margin: 30px 0 0;
   padding: 0;
   list-style-type: none;
 }
-.appie-download-content ul li {
+.imti-download-content ul li {
   display: inline-block;
 }
-.appie-download-content ul li a {
+.imti-download-content ul li a {
   background: #0e1133;
   color: #fff;
   padding-left: 22px;
@@ -3022,51 +3018,51 @@ p {
   border: 2px solid #0e1133;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-download-content ul li a {
+  .imti-download-content ul li a {
     padding-right: 20px;
   }
 }
 @media (max-width: 767px) {
-  .appie-download-content ul li a {
+  .imti-download-content ul li a {
     margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-download-content ul li a {
+  .imti-download-content ul li a {
     margin-bottom: 0px;
   }
 }
-.appie-download-content ul li a i {
+.imti-download-content ul li a i {
   font-size: 36px;
   padding-right: 11px;
 }
-.appie-download-content ul li a span {
+.imti-download-content ul li a span {
   font-size: 14px;
   font-weight: 500;
 }
-.appie-download-content ul li a span span {
+.imti-download-content ul li a span span {
   font-size: 24px;
   display: block;
   line-height: 18px;
 }
-.appie-download-content ul li a:hover {
+.imti-download-content ul li a:hover {
   background: #fff;
   color: #0e1133;
 }
-.appie-download-content ul li a.item-2 {
+.imti-download-content ul li a.item-2 {
   background: #fff;
   color: #0e1133;
 }
-.appie-download-content ul li a.item-2:hover {
+.imti-download-content ul li a.item-2:hover {
   background: #0e1133;
   color: #fff;
 }
 
-.appie-sponser-area {
+.imti-sponser-area {
   position: relative;
   z-index: 10;
 }
-.appie-sponser-area .sponser-shape {
+.imti-sponser-area .sponser-shape {
   position: absolute;
   left: 50%;
   top: 60%;
@@ -3075,11 +3071,11 @@ p {
 }
 
 @media (max-width: 767px) {
-  .appie-sponser-box {
+  .imti-sponser-box {
     flex-wrap: wrap;
   }
 }
-.appie-sponser-box .sponser-item {
+.imti-sponser-box .sponser-item {
   background: #fff;
   height: 100px;
   width: 100px;

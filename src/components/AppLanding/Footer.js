@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.jpg";
 
-function FooterHomeOne({ className }) {
+function FooterHomeOne() {
   return (
     <>
-      <section className={`appie-footer-area ${className || ""}`}>
+      <section className="imti-footer-area" id="footer">
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-6">

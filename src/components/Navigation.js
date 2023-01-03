@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll/modules";
+import { Link as RouterLink } from "react-router-dom";
 import "../assets/css/main.css";
 
 function Navigation() {
@@ -7,19 +8,74 @@ function Navigation() {
     <nav>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <RouterLink>
+            <ScrollLink
+              activeClass="active"
+              to="hero"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Home
+            </ScrollLink>
+          </RouterLink>
         </li>
         <li>
-          <Link to="/service">Service</Link>
+          <RouterLink>
+            <ScrollLink
+              activeClass="active"
+              to="services"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Service
+            </ScrollLink>
+          </RouterLink>
         </li>
         <li>
-          <Link to="/feature">Feature</Link>
+          <RouterLink>
+            <ScrollLink
+              activeClass="active"
+              to="features"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Feature
+            </ScrollLink>
+          </RouterLink>
         </li>
         <li>
-          <Link to="/restaurent">Restaurent</Link>
+          <RouterLink>
+            <ScrollLink
+              activeClass="active"
+              to="restaurent"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Restaurent
+            </ScrollLink>
+          </RouterLink>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <RouterLink>
+            <ScrollLink
+              activeClass="active"
+              to="footer"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Contact
+            </ScrollLink>
+          </RouterLink>
         </li>
       </ul>
     </nav>

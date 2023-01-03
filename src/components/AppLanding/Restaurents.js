@@ -4,22 +4,22 @@ import teamTwo from "../../assets/images/2.jpg";
 import teamThree from "../../assets/images/3.jpg";
 import teamFour from "../../assets/images/4.jpg";
 
-function TeamHomeOne({ className }) {
+function TeamHomeOne() {
   return (
     <>
-      <section className={`appie-team-area pt-90 pb-100 ${className || ""}`}>
+      <section className="imti-team-area pt-90 pb-100" id="restaurent">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div className="appie-section-title text-center">
-                <h3 className="appie-title">Top Restaurents</h3>
+              <div className="imti-section-title text-center">
+                <h3 className="imti-title">Top Restaurents</h3>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-3 col-md-6">
               <div
-                className="appie-team-item mt-30 wow animated fadeInUp"
+                className="imti-team-item mt-30 wow animated fadeInUp"
                 data-wow-duration="2000ms"
                 data-wow-delay="200ms"
               >
@@ -33,7 +33,7 @@ function TeamHomeOne({ className }) {
             </div>
             <div className="col-lg-3 col-md-6">
               <div
-                className="appie-team-item mt-30 wow animated fadeInUp"
+                className="imti-team-item mt-30 wow animated fadeInUp"
                 data-wow-duration="2000ms"
                 data-wow-delay="400ms"
               >
@@ -47,7 +47,7 @@ function TeamHomeOne({ className }) {
             </div>
             <div className="col-lg-3 col-md-6">
               <div
-                className="appie-team-item mt-30 wow animated fadeInUp"
+                className="imti-team-item mt-30 wow animated fadeInUp"
                 data-wow-duration="2000ms"
                 data-wow-delay="600ms"
               >
@@ -61,7 +61,7 @@ function TeamHomeOne({ className }) {
             </div>
             <div className="col-lg-3 col-md-6">
               <div
-                className="appie-team-item mt-30 wow animated fadeInUp"
+                className="imti-team-item mt-30 wow animated fadeInUp"
                 data-wow-duration="2000ms"
                 data-wow-delay="800ms"
               >
