@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
-function FaqHomeOne({ className }) {
+function FaqHomeOne() {
   const [showQues, setQues] = useState(1);
   const openQuestion = (value) => {
     setQues(value);
   };
   return (
     <>
-      <section className={`imti-faq-area pb-95 ${className || ""}`}>
+      <section className="imti-faq-area pb-95">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

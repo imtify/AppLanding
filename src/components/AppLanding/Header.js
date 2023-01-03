@@ -3,12 +3,12 @@ import logo from "../../assets/images/logo.jpg";
 import StickyMenu from "../../lib/StickyMenu";
 import Navigation from "../Navigation";
 
-function HomeOneHeader({ className, action }) {
+function HomeOneHeader({ action }) {
   useEffect(() => {
     StickyMenu();
   });
   return (
-    <header className={`imti-header-area imti-sticky ${className || ""}`}>
+    <header className="imti-header-area imti-sticky">
       <div className="container">
         <div className="header-nav-box">
           <div className="row align-items-center">

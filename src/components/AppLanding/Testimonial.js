@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import user from "../../assets/images/testimonial.png";
 
-function TestimonialHomeOne({ className }) {
+function TestimonialHomeOne() {
   const sliderRef = useRef();
   const sliderNext = () => {
     sliderRef.current.slickNext();
@@ -23,10 +23,7 @@ function TestimonialHomeOne({ className }) {
   };
 
   return (
-    <section
-      className={`imti-testimonial-area pt-100 pb-160 ${className || ""}`}
-      id="testimonial"
-    >
+    <section className="imti-testimonial-area pt-100 pb-160" id="testimonial">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">
