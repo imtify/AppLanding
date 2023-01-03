@@ -16,11 +16,11 @@ function App() {
   return (
     <>
       {loading && (
-        <div className={`appie-loader ${loading ? "active" : ""}`}>
+        <div className={`imti-loader ${loading ? "active" : ""}`}>
           <Loader />
         </div>
       )}
-      <div className={`appie-visible ${loading === false ? "active" : ""}`}>
+      <div className={`imti-visible ${loading === false ? "active" : ""}`}>
         <Routes>
           <Route path="/" element={<AppLanding />}></Route>
         </Routes>
