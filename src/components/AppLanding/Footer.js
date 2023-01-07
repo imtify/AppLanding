@@ -118,12 +118,12 @@ function FooterHomeOne() {
                 <div className="apps-download-btn">
                   <ul>
                     <li>
-                      <a href="#top">
+                      <a className="item" href="#/">
                         <i className="fab fa-apple" /> Download for iOS
                       </a>
                     </li>
                     <li>
-                      <a className="item-2" href="#top">
+                      <a className="item" href="#/">
                         <i className="fab fa-google-play" /> Download for
                         Android
                       </a>

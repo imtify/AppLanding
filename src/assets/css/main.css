@@ -2616,12 +2616,12 @@ p {
   color: #0e1133;
   border-color: #e7eaef;
 }
-.footer-copyright .apps-download-btn ul li a.item-2 {
+.footer-copyright .apps-download-btn ul li a.item {
   background: transparent;
   color: #0e1133;
   border-color: #e7eaef;
 }
-.footer-copyright .apps-download-btn ul li a.item-2:hover {
+.footer-copyright .apps-download-btn ul li a.item:hover {
   background: #fff;
   color: #0e1133;
 }
@@ -2842,14 +2842,12 @@ p {
 /*===========================
     11.COUNTERAREA CSS 
 ===========================*/
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .imti-counter-area {
-    padding-bottom: 100px;
-  }
+.imti-counter-area {
+  padding-bottom: 180px;
 }
 @media (max-width: 767px) {
   .imti-counter-area {
-    padding-bottom: 100px;
+    padding-bottom: 60px;
   }
 }
 
@@ -2858,10 +2856,6 @@ p {
   position: relative;
   background: #fff;
   height: 160px;
-  background-image: -moz-linear-gradient(140deg, #ddf4fd 0%, #eaf9ff 100%);
-  background-image: -webkit-linear-gradient(140deg, #ddf4fd 0%, #eaf9ff 100%);
-  background-image: -ms-linear-gradient(140deg, #ddf4fd 0%, #eaf9ff 100%);
-  background-image: linear-gradient(140deg, #ddf4fd 0%, #eaf9ff 100%);
   border-radius: 10px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
