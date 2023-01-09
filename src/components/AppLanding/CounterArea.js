@@ -94,7 +94,7 @@ function CounterArea() {
                     </span>
                     k+
                   </h3>
-                  <p>Comments</p>
+                  <p>Comment</p>
                 </div>
               </div>
             </div>
