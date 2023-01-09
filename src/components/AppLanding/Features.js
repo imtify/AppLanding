@@ -4,11 +4,11 @@ import trafficThumb from "../../assets/images/feature.png";
 function FeaturesHomeFour() {
   return (
     <>
-      <section className="imti-features-area-2 pt-90 pb-100" id="features">
+      <section className="imti-features-area pt-90 pb-100" id="features">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-12">
-              <div className="imti-section-title imti-section-title-2 text-center">
+              <div className="imti-section-title text-center">
                 <h3 className="imti-title">Why Our App</h3>
               </div>
             </div>

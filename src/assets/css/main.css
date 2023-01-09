@@ -224,12 +224,6 @@ p {
   color: #fff;
   border-color: #ff3e66;
 }
-.imti-section-title.imti-section-title-2 .imti-title {
-  color: #fff;
-}
-.imti-section-title.imti-section-title-2 p {
-  color: #fff;
-}
 
 .back-to-top {
   position: fixed;
@@ -1498,34 +1492,34 @@ p {
   padding-bottom: 30px;
 }
 
-.imti-features-area-2 {
-  background: #1631ba;
+.imti-features-area {
+  background: #faf9f6;
   position: relative;
   overflow: hidden;
   z-index: 10;
 }
-.imti-features-area-2 .features-shape-1 {
+.imti-features-area .features-shape-1 {
   position: absolute;
   left: 240px;
   top: 240px;
   z-index: -1;
   animation: linear 20s animationFramesThree infinite;
 }
-.imti-features-area-2 .features-shape-2 {
+.imti-features-area .features-shape-2 {
   position: absolute;
   right: 190px;
   top: 160px;
   z-index: -1;
   animation: linear 20s animationFramesFive infinite;
 }
-.imti-features-area-2 .features-shape-3 {
+.imti-features-area .features-shape-3 {
   position: absolute;
   right: 160px;
   bottom: 260px;
   z-index: -1;
   animation: linear 20s animationFramesOne infinite;
 }
-.imti-features-area-2.imti-features-area-5 {
+.imti-features-area.imti-features-area-5 {
   background: #fff;
 }
 
@@ -1562,7 +1556,7 @@ p {
   }
 }
 .imti-features-box-item .title {
-  color: #fff;
+  color: #0e1133;
   font-size: 24px;
   font-weight: 700;
   position: relative;

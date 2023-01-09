@@ -8,7 +8,7 @@ import CounterUpCom from "../../lib/CounterUpCom";
 function CounterArea() {
   return (
     <>
-      <section className="imti-counter-area" id="counter">
+      <section className="imti-counter-area pt-5" id="counter">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
