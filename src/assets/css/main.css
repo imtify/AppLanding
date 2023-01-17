@@ -138,9 +138,9 @@ p {
   -ms-user-select: none;
   user-select: none;
   border: 1px solid #2b70fa;
-  padding: 0 30px;
+  padding: 0 15px;
   font-size: 15px;
-  line-height: 45px;
+  line-height: 40px;
   border-radius: 25px;
   color: #fff;
   cursor: pointer;
@@ -153,9 +153,37 @@ p {
   background-color: #2b70fa;
 }
 .signup-btn:hover {
-  background-color: #fff;
-  color: #2b70fa;
+  background-color: transparent;
+  color: #000000;
   border-color: #2b70fa;
+  text-decoration: none;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .signup-btn {
+    display: inline-block;
+    font-weight: 300;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #2b70fa;
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 30px;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 5;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+    background-color: #2b70fa;
+  }
 }
 
 .imti-title h1 {
@@ -1117,11 +1145,40 @@ p {
   content: "";
   left: 50%;
   top: 50%;
-  height: 500px;
-  width: 500px;
+  height: 250px;
+  width: 250px;
   transform: translate(-50%, -50%);
   background: #ff3e66;
   border-radius: 50%;
+  z-index: -1;
+}
+
+.imti-hero-area .hero-shape-1 {
+  position: absolute;
+  top: 250px;
+  left: 130px;
+  animation: linear 20s animationFramesOne infinite;
+  z-index: -1;
+}
+.imti-hero-area .hero-shape-2 {
+  position: absolute;
+  bottom: 290px;
+  left: 40px;
+  animation: linear 20s animationFramesFour infinite;
+  z-index: -1;
+}
+.imti-hero-area .hero-shape-3 {
+  position: absolute;
+  top: 480px;
+  right: 240px;
+  animation: linear 20s animationFramesFive infinite;
+  z-index: -1;
+}
+.imti-hero-area .hero-shape-4 {
+  position: absolute;
+  top: 210px;
+  right: 0px;
+  animation: linear 20s animationFramesThree infinite;
   z-index: -1;
 }
 

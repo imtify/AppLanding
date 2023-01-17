@@ -1,5 +1,8 @@
 import React from "react";
 import trafficThumb from "../../assets/images/traffic-thumb-2.png";
+import shapeTwo from "../../assets/images/shape/shape-2.png";
+import shapeThree from "../../assets/images/shape/shape-3.png";
+import shapeFour from "../../assets/images/shape/shape-4.png";
 
 function HeroHomeOne() {
   return (
@@ -16,7 +19,7 @@ function HeroHomeOne() {
                 </h1>
                 <ul>
                   <li>
-                    <a href="#top">
+                    <a className="item-1" href="#top">
                       <i className="fab fa-apple" /> Download for iOS
                     </a>
                   </li>
@@ -45,6 +48,15 @@ function HeroHomeOne() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="hero-shape-1">
+          <img src={shapeTwo} alt="" />
+        </div>
+        <div className="hero-shape-2">
+          <img src={shapeThree} alt="" />
+        </div>
+        <div className="hero-shape-3">
+          <img src={shapeFour} alt="" />
         </div>
       </section>
     </>

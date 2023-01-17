@@ -24,7 +24,7 @@ function HomeOneHeader({ action }) {
                 <Navigation />
               </div>
             </div>
-            <div className="col-lg-4  col-md-7 col-sm-6 col-6 order-2 order-sm-3">
+            <div className="col-lg-4 col-md-7 col-sm-6 col-6 order-2 order-sm-3">
               <div className="imti-btn-box text-right">
                 <a className="signup-btn" href="#top">
                   <i className="fal fa-user" /> SignUp
